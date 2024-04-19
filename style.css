@@ -1,0 +1,213 @@
+/* General settings */
+body {
+	background-color: #F5F5F5;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+
+/* Texts */
+h1 {
+	color: rgb(30, 30, 30);
+	font-size: 35px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: poppins;
+}
+
+h2 {
+	color: rgb(50, 50, 50);
+	font-size: 20px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+h3 {
+  	color: rgb(30, 30, 30);
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-style: italic;
+	text-align: center;
+	margin-top: 35px;
+}
+
+p {
+	color: #0B0B0B;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+	color: #6350D2;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 15px;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+	color: #C6BFEA;
+}
+
+/* Profile picture */
+.profile-shadow {
+	border-radius: 50%;
+	box-shadow: 10px 10px 20px #6350D2;
+	transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.profile-shadow:hover {
+  box-shadow: -10px -10px 20px #6350D2;
+  transform: rotateY(20deg);
+}
+
+/* Divs */
+.centering {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 750px) {
+	.centering {
+		width: 600px;
+	}
+}
+
+@media (max-width: 650px) {
+	.centering {
+		width: 500px;
+	}
+}
+
+
+@media (max-width: 550px) {
+	.centering {
+		width: 400px;
+	}
+}
+
+#intro-section {
+	background: white;
+	padding: 30px;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	text-align: center;
+}
+
+#intro-section p {
+	margin-bottom: 30px;
+}
+
+.rows {
+	width: 100%;
+	text-align: center;
+}
+
+.interests {
+	width: 165px;
+	display: inline-block;
+	padding: 30px;
+	margin-top: 10px;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	transition: background-color 0.2s ease;
+}
+
+@media (max-width: 750px) {
+	.interests {
+		width: 540px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 650px) {
+	.interests {
+		width: 440px;
+	}
+}
+
+
+@media (max-width: 550px) {
+	.interests {
+		width: 340px;
+	}
+}
+
+.interests:hover {
+	background-color: #6350D2;
+}
+
+.interests:hover p {
+	color: white;
+}
+
+.interests:hover h2 {
+	color: white;
+}
+
+#business {
+	margin-right: 5px;
+}
+
+#finance {
+	margin-right: 5px;
+}
+
+.btn-purple {
+	background-color: #6350D2;
+	color: white;
+	padding: 13px 18px;
+	border-radius: 4px;
+	transition: background-color 0.2s ease;
+	border-color: black;
+	border-top-width: 2px;
+}
+
+.btn-purple:hover {
+	background-color: #C6BFEA;
+	color: #6350D2;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline li {
+	display: inline;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #C6BFEA;
+	transition: color 0.2s ease;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.fa-square-instagram:hover {
+	color: #6350D2;
+}
+
+.fa-square-instagram:hover {
+	color: #6350D2;
+}
+
+.fa-square-x-twitter:hover {
+	color: #6350D2;
+}
+
+.fa-linkedin:hover	{
+	color: #6350D2;
+}
